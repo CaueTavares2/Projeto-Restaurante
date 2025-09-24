@@ -17,7 +17,15 @@ namespace RestauranteProjeto
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            using (Login loginForm = new Login())
+            {
+                // Abrir o Login de forma modal
+                if (loginForm.ShowDialog() == DialogResult.OK)
+                {
+                    // Login bem-sucedido, então inicia o Form1
+                    Application.Run(new Form1());
+                }
+            }
         }
     }
 }
