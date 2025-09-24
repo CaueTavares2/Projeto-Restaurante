@@ -34,5 +34,4 @@ Este projeto é ideal para aprender sobre **CRUD, integração com banco de dado
 - **MySQL**
 - **Visual Studio 2019**
 
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=flat&logo=appveyor)
-![Versão](https://img.shields.io/badge/Versão-1.0-blue?style=flat&logo=github)
+![Demo do Sistema](assets/demo-sistema.gif)
